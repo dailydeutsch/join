@@ -40,8 +40,6 @@ if(form){
   // Show on index.html, lander.html, or root path
   const isTargetPage = /(^\/$|index\.html$|lander\.html$)/.test(path);
   if(!isTargetPage) return;
-  if(sessionStorage.getItem('ageGateShown') === '1') return;
-  sessionStorage.setItem('ageGateShown', '1');
 
   const bd = document.createElement('div');
   bd.className = 'modal-backdrop';

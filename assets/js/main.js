@@ -45,8 +45,7 @@ if(form){
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
     <div class="modal">
-      <h3>Policy Notice</h3>
-      <p>By continuing to use this site, you agree to our terms and privacy policy. This notice is for informational purposes.</p>
+      <h4>Are you above 18</h4>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn" id="age-yes">Yes, Accept</button>
         <button class="btn ghost" id="age-no">Close</button>

@@ -34,38 +34,16 @@
 </nav>
 
 <header class="hero">
-  <div class="container grid">
-    <div>
-      <div class="badge">Explore • Challenge • Conquer</div>
-      <h1>Embark on an epic adventure through ancient ruins and mystical temples.</h1>
-      <p>Experience pulse-pounding gameplay with stunning visuals, intuitive controls, and a leaderboard that celebrates the world's top adventurers. Every session is a new journey into the unknown.</p>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="game.html">Start Your Quest</a>
-        <a class="btn ghost" href="blog.html">Discover Stories</a>
-      </div>
-      <div class="kudos">
-        <span class="pill">⚡ Lightning-fast gameplay</span>
-        <span class="pill">📱 Play anywhere, anytime</span>
-        <span class="pill">🧠 Strategic thinking required</span>
-      </div>
-    </div>
-    <div class="card">
-      <div class="grid-2">
-        <div class="card">
-          <div class="stat">
-            <div class="n">10k+</div>
-            <div class="t">Plays</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="stat">
-            <div class="n">1.2s</div>
-            <div class="t">First Interaction</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <picture>
+    <!-- Mobile Image -->
+    <source srcset="assets/img/mobile.webp" media="(max-width: 768px)">
+    
+    <!-- Desktop Image (default) -->
+    <img src="assets/img/desktop.webp" 
+         alt="Ancient Quest Adventure Banner" 
+         style="width:100%; height:auto; display:block;">
+  </picture>
+  <script src="assets/js/main.js"></script>
   <script type="text/javascript">     (function(c,l,a,r,i,t,y){         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);     })(window, document, "clarity", "script", "vk867iuu3t"); </script>
 </header>
 
@@ -122,6 +100,6 @@
     </div>
   </div>
 </footer>
-<script src="assets/js/main.js"></script>
+
 </body>
 </html>
